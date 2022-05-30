@@ -7,7 +7,7 @@ public class Multiplicacion extends OperationMX {
     @Override
     public void interpreter(Context context) {
         if (context.input.startsWith("*")){
-            context.signo = this.digito;
+            context.signo = 3;
             context.input = context.input.substring(this.digito);
         }
     }

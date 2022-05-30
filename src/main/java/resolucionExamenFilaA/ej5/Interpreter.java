@@ -12,13 +12,13 @@ public class Interpreter {
         for (String charOriginal : msgToInterpret.split(" ")) {
             switch (charOriginal){
                 case "*":
-                    grammar.add(new Multiplicacion(context.signo));
+                    grammar.add(new Multiplicacion(charOriginal.length()));
                     break;
                 case "+":
-                    grammar.add(new Suma(context.signo));
+                    grammar.add(new Suma(charOriginal.length()));
                     break;
                 default:
-                    grammar.add(new Numero(context.signo));
+                    grammar.add(new Numero(charOriginal.length()));
                     break;
             }
         }
