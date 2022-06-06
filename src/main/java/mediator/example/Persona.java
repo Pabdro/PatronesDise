@@ -6,6 +6,7 @@ public abstract class Persona {
     private String name;
     private String cargo;
     public Persona(ICanalComunication canalComunication){
+
         this.canalComunication=canalComunication;
     }
 
