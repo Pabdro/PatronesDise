@@ -7,6 +7,7 @@ public class Profesional extends Persona{
 
     @Override
     public void send(String msg) {
+
         canalComunication.send(msg,this);
     }
 

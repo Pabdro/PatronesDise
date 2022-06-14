@@ -6,6 +6,7 @@ import java.util.Map;
 public class Skype implements ICanalComunicacion{
     Map<Persona, String> map = new HashMap<Persona, String>();
     public void addToChat(Persona persona){
+
         map.put(persona, persona.getTipo());
     }
     @Override

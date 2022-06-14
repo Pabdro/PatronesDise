@@ -1,6 +1,5 @@
 package chainResponsability.structure;
 
-import chainResponsability.structure.*;
 
 public class ManagerHandler implements IHandler {
 

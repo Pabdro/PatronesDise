@@ -16,7 +16,6 @@ public class ConcreteHandler1 implements IHandler {
         } else {
             next.criteriaHandler(amount);
         }
-
     }
 
     @Override

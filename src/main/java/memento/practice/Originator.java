@@ -4,9 +4,11 @@ public class Originator {
     private BaseDeDatos state;
 
     public void setMemento(BaseDeDatos state) {
+
         this.state = state;
     }
     public Memento createMemento(){
+
         return  new Memento(state);
     }
     public BaseDeDatos restoreMemento(Memento m){

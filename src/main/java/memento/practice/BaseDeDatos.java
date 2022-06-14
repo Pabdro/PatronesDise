@@ -6,14 +6,17 @@ public class BaseDeDatos {
     private List<Persona> personas;
 
     public BaseDeDatos(List<Persona> personas) {
+
         this.personas = personas;
     }
 
     public List<Persona> getPersonas() {
+
         return personas;
     }
 
     public void setPersonas(List<Persona> personas) {
+
         this.personas = personas;
     }
     public void showInfo(){

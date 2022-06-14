@@ -6,6 +6,7 @@ public abstract class Persona {
     private String ci;
     private String tipo;
     public Persona(ICanalComunicacion canalComunication){
+
         this.canalComunication=canalComunication;
     }
 
